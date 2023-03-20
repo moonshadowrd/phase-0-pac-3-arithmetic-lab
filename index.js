@@ -40,7 +40,16 @@ function decrement( num1) {
     return --num1 
 }
 
-let numer = 10;
- parseInt("2.2222", 10);
 
 
+
+function makeInt(n, base) {
+    return parseInt
+}
+
+function preserveDecimal(n, base) {
+    return parseInt
+}
+
+
+  
