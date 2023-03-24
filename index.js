@@ -32,23 +32,21 @@ function divide( num1, num2) {
     return num1 / num2
 }
 
-function increment( num1) {
-    return ++num1 
+function increment(n) {
+    return n + 1;
+  }
+
+function decrement( n) {
+    return --n
 }
 
-function decrement( num1) {
-    return --num1 
-}
 
+function makeInt(n) {
+    return parseInt(n, 10);
+  }
 
-
-
-function makeInt(n, base) {
-    return parseInt
-}
-
-function preserveDecimal(n, base) {
-    return parseInt
+function preserveDecimal(n) {
+    return parseFloat(n)
 }
 
 
